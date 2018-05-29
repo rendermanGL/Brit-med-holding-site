@@ -21,6 +21,9 @@
         <link rel="stylesheet" href="css/owl.carousel.css">
         <link rel="stylesheet" href="css/owl.theme.default.min.css">
 
+        <!-- CUSTOM CSS -->
+        <link rel="stylesheet" href="css/clockWidget.css">     
+
         <!-- MAIN CSS -->
         <link rel="stylesheet" href="css/tooplate-style.css">
 
@@ -75,6 +78,37 @@
 
             </div>
         </section>
+
+
+
+        <!-- CLOCK -->
+        <section id="clockWidget">
+    
+            <div id="clockdiv">
+    
+                <div>
+                    <span class="days"></span>
+                    <div class="smalltext">Days</div>
+                </div>
+                
+                <div>
+                    <span class="hours"></span>
+                    <div class="smalltext">Hours</div>
+                </div>
+                
+                <div>
+                    <span class="minutes"></span>
+                    <div class="smalltext">Minutes</div>
+                </div>
+                
+                <div>
+                    <span class="seconds"></span>
+                    <div class="smalltext">Seconds</div>
+                </div>
+    
+            </div>
+    
+        </section>
   
          <!-- ABOUT -->
         <section id="about">
@@ -94,7 +128,7 @@
         </section>
 
         <!-- EXECUTIVE BOARD -->
-        <section id="team" data-stellar-background-ratio="1">
+        <!-- <section id="team" data-stellar-background-ratio="1">
                 <div class="container">
                      <div class="row">
                           <div class="col-md-12 col-sm-12">
@@ -120,7 +154,7 @@
                                             <a href="aboutus-membersDescription/jeanLucDescription.html" class="section-btn btn btn-default btn-blue smoothScroll">Learn More</a>
                                         </ul>
                                 </div>
-                            </div>
+                            </div> -->
         
                             <!-- <div class="col-md-3 col-sm-6">
                                 <div class="team-thumb wow fadeInUp" data-wow-delay="0.6s">
@@ -136,7 +170,7 @@
                                 </div>
                             </div> -->
 
-                            <div class="col-md-3 col-sm-6">
+                            <!-- <div class="col-md-3 col-sm-6">
                                     <div class="team-thumb wow fadeInUp" data-wow-delay="0.4s">
                                         <img src="images/Exec-images/Andrew-Skyrme.png" style="width:100%;" class="img-responsive" alt="">
         
@@ -148,7 +182,7 @@
                                             <a href="aboutus-membersDescription/andrewSkyrme.html" class="section-btn btn btn-default btn-blue smoothScroll">Learn More</a>
                                         </ul>
                                     </div>
-                            </div>
+                            </div> -->
 
                             <!-- <div class="col-md-3 col-sm-6">
                                     <div class="team-thumb wow fadeInUp" data-wow-delay="0.4s">
@@ -163,7 +197,7 @@
                                         </ul>
                                     </div>
                             </div> -->
-                        </div>
+                        <!-- </div>
                     </div>
 
                      <div class="row">
@@ -220,7 +254,7 @@
 
                      </div>
                 </div>
-           </section>
+           </section> -->
 
 
             <!-- OUR HEALTHCARE PROVIDERS -->
@@ -326,17 +360,8 @@
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/custom.js"></script>
 
-    <script>
-        // Get the modal
-        var modal = document.getElementById('id01');
-        
-        // When the user clicks anywhere outside of the modal, close it
-        window.onclick = function(event) {
-            if (event.target == modal) {
-                modal.style.display = "none";
-            }
-        }
-    </script>
+    <!-- CLOCK JS -->
+    <script src="js/clockWidget.js"></script>
 
 </body>
 </html>
