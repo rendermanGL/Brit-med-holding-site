@@ -50,7 +50,7 @@ else{
   // create deadline 10 minutes from now
   var timeInMinutes = 10;
   var currentTime = Date.parse(new Date());
-  var deadline = new Date(currentTime + 66 * 24 * 60 * 60 * 1000);
+  var deadline = new Date(currentTime + 61 * 24 * 60 * 60 * 1000);
 
   // store deadline in cookie for future reference
   document.cookie = 'myClock=' + deadline + '; path=/; domain=rendermangl.github.io';
